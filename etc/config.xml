@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <system>
+            <report_file_cleaner>
+                <clean_files_cron_schedule_expression>0 0 15 * *</clean_files_cron_schedule_expression>
+                <search_patterns>report/*</search_patterns>
+            </report_file_cleaner>
+        </system>
+    </default>
+</config>
